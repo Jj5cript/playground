@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-junit-reporter":"latest",
+    "protractor": "1.1.x",
+    "http-server": "0.6.x",
+    "bower": "1.3.x"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server app -a localhost -p 8080 -c-1"
+  }
+}
