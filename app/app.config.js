@@ -10,4 +10,7 @@ angular.module('playgroundApp')
             .when("/projects", {
                 templateUrl: "projects.html"
             })
+            .when("/projects/pong", {
+                templateUrl: "components/pong/pong.tpl.html"
+            })
     });
